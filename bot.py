@@ -24,8 +24,19 @@ TARGET_GAIN     = 2.0   # +2€ si "1" gagne
 TARGET_LOSS     = 2.0   # -2€ si "X2" gagne
 MIN_MISE        = 0.10  # mise minimum en €
 
-SPORTS = ["soccer_france_ligue1", "soccer_epl", "soccer_spain_la_liga",
-          "soccer_germany_bundesliga", "soccer_italy_serie_a", "soccer_uefa_champs_league"]
+SPORTS = [
+    "soccer_france_ligue_one",       # Ligue 1 - France
+    "soccer_france_ligue_two",       # Ligue 2 - France
+    "soccer_france_coupe_de_france", # Coupe de France
+    "soccer_epl",                    # Premier League - Angleterre
+    "soccer_spain_la_liga",          # La Liga - Espagne
+    "soccer_germany_bundesliga",     # Bundesliga - Allemagne
+    "soccer_italy_serie_a",          # Serie A - Italie
+    "soccer_uefa_champs_league",     # Champions League
+    "soccer_uefa_europa_league",     # Europa League
+    "soccer_netherlands_eredivisie", # Eredivisie - Pays-Bas
+    "soccer_portugal_primeira_liga", # Primeira Liga - Portugal
+]
 
 BOOKMAKERS = ["unibet", "betclic", "winamax", "betway", "bet365"]
 
